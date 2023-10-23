@@ -2,11 +2,10 @@ import ContactForm, { enquiriesProps } from "./ContactForm";
 import backgroundImage from "./images/letter.png";
 
 interface stateProps {
-	ContactMeOpen: boolean;
 	SetContactMeOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const ContactMe: React.FC<stateProps> = ({ContactMeOpen,SetContactMeOpen}) => {
+const ContactMe: React.FC<stateProps> = ({SetContactMeOpen}) => {
 	const closeWindowHandler = () => {
 		SetContactMeOpen(false);
 	};

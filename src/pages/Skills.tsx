@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import ResumeHeader from "../components/ResumeHeader";
 import { Link } from "react-router-dom";
 import ProgressBar from "../components/ProgressBar";

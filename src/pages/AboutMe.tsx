@@ -52,7 +52,6 @@ const AboutMe: React.FC = () => {
 			</div>
 			{ContactMeOpen && (
 				<ContactMe
-					ContactMeOpen={ContactMeOpen}
 					SetContactMeOpen={SetContactMeOpen}
 				/>
 			)}
@@ -78,7 +77,7 @@ const AboutMe: React.FC = () => {
 
 const Trans = () => {
     return (
-        <Transition Component={AboutMe} />
+        <Transition Component={AboutMe} effect="slide-in"/>
     );
 };
 
