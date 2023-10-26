@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
 					<p className="font-sans text-darkbrown text-2xl font-semibold">(she/her)</p>
 					<p className="font-sans text-darkbrown text-xl">AI Engineer / Software Developer</p>
 				</div>
-                <button className="btn-hollow" onClick={ContactHandler}>Contact Me</button>
+                <button className="btn-hollow hover:border-2 hover:font-semibold py-3" onClick={ContactHandler}>Contact Me</button>
 				<div className="flex flex-row gap-x-6" >
 					<img src={IgLogo} alt="" onClick={IgHandler} />
 					<img src={FbLogo} alt="" onClick={FbHandler} />
@@ -66,8 +66,8 @@ const AboutMe: React.FC = () => {
 					appreciated.
 				</p>
 				<div className="flex flex-row gap-x-6 pt-32">
-					<button className="btn-filled hover:bg-darkbrown" onClick={ResumeHandler}>Resume</button>
-					<button className="btn-filled hover:bg-darkbrown" onClick={ProjectHandler}>Projects</button>
+					<button className="btn-filled  hover:bg-lightbrown" onClick={ResumeHandler}>Resume</button>
+					<button className="btn-filled  hover:bg-lightbrown" onClick={ProjectHandler}>Projects</button>
 				</div>
 				<Link className="absolute text-lightbrown hover:text-brown bottom-10 right-16 hover:underline font-semibold" to="/">{"Home >"}</Link>
 			</div>

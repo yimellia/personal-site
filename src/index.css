@@ -9,7 +9,7 @@
     @apply w-64 h-12 bg-darkbrown text-white font-sans text-xl font-bold py-2;
 }
 .btn-hollow{
-    @apply w-64 h-16 bg-transparent border border-lightbrown text-white font-sans text-xl font-bold py-3 text-2xl text-lightbrown font-['Montserrat'];
+    @apply bg-transparent border border-lightbrown text-xl font-light px-10 text-xl text-lightbrown font-['Montserrat'];
 }
 .title-resume{
     @apply text-7xl font-bold font-['Lora'];
@@ -18,7 +18,7 @@
     @apply text-4xl font-['Lora'] font-semibold;
 }
 .text-role{
-    @apply text-2xl font-['Farsan'];
+    @apply text-3xl font-['Farsan'];
 }
 .text-other{
     @apply text-xl font-['Mukta'];

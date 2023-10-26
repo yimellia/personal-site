@@ -4,8 +4,9 @@ import ResumeHeader from "../components/ResumeHeader";
 const Education: React.FC = () => {
     const downloadTranscriptHandler = () => {
         const link = document.createElement('a');
-        link.href = "../components/images/transcript.pdf"; 
+        link.href = `${window.location.origin}/transcript.pdf`; 
         link.download = 'Ellia_Yim_Transcript.pdf'; 
+        link.click();
     }
     return (
         <div className="bg-beige text-brown min-h-screen" >

@@ -6,7 +6,7 @@ const Profile: React.FC = () => {
     const navigate = useNavigate();
     const downloadResumeHandler = () => {
         const link = document.createElement('a');
-        link.href = "../components/images/resume.pdf"; // Replace with the URL or path to your resume file
+        link.href = `${window.location.origin}/resume.pdf`; // Replace with the URL or path to your resume file
         link.download = 'Ellia_Yim_Resume.pdf'; // Replace with the desired filename for the downloaded file
         link.click();
     }

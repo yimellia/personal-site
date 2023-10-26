@@ -25,10 +25,10 @@ const HoverTable: React.FC<ExperiencesProps>= ({ company, role, duration, year, 
             <p className="text-other w-1/5">{isExpanded? duration : year}</p>
             <div className="flex flex-col w-4/5">
                 <h1 className="text-company">{company}</h1>
-                <h2 className="text-role">{role}</h2>
+                <h2 className="text-role mt-2">{role}</h2>
             </div>
         </div>
-        {isExpanded && <div className="text-other mt-3 px-10">{description}</div>}
+        {isExpanded && <div className="text-other mt-4 px-10">{description}</div>}
     </div>
   );
 };
